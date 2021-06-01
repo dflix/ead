@@ -62,12 +62,12 @@ class Rota {
                 return;
             }
 
-            if ($par1 == "produtos" && !empty($par2)) {
+            if ($par1 == "cursos" && !empty($par2)) {
                 include './themes/default/single_product.php';
                 return;
             }
 
-            if ($par1 == "produtos") {
+            if ($par1 == "cursos") {
                 include './themes/default/products.php';
                 return;
             }
