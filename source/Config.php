@@ -68,7 +68,7 @@ define("CONF_PASSWD_OPTION", ["cost" => 10]);
 define("CONF_VIEW_PATH", __DIR__ . "/../../shared/views");
 define("CONF_VIEW_EXT", "php");
 define("CONF_VIEW_THEME", "default");
-define("CONF_VIEW_APP", "http://www.dflixcontrol.com.br/themes/admin");
+define("CONF_VIEW_APP", "http://www.localhost/ead/themes/admin");
 //define("CONF_VIEW_APP", "cafeapp");
 
 /**
@@ -89,12 +89,12 @@ define("CONF_IMAGE_QUALITY", ["jpg" => 75, "png" => 5]);
 /**
  * MAIL
  */
-define("CONF_MAIL_HOST", "mail.dflixcontrol.com.br");
+define("CONF_MAIL_HOST", "mail.bembomdelivery.com.br");
 define("CONF_MAIL_PORT", "587");
-define("CONF_MAIL_USER", "send@dflixcontrol.com.br");
+define("CONF_MAIL_USER", "contato@bembomdelivery.com.br");
 define("CONF_MAIL_PASS", "dflix7778");
-define("CONF_MAIL_SENDER", ["name" => "Dflix Control", "address" => "send@dflixcontrol.com.br"]);
-define("CONF_MAIL_SUPPORT", "send@dflixcontrol.com.br");
+define("CONF_MAIL_SENDER", ["name" => "EAD Plataforma de Ensino", "address" => "contato@bembomdelivery.com.br"]);
+define("CONF_MAIL_SUPPORT", "contato@bembomdelivery.com.br");
 define("CONF_MAIL_OPTION_LANG", "br");
 define("CONF_MAIL_OPTION_HTML", true);
 define("CONF_MAIL_OPTION_AUTH", true);

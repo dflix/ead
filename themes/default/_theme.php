@@ -10,10 +10,9 @@ require __DIR__ . "/../../library/autoload.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="<?= CONF_URL_THEME ?>/css/style.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link href="<?= CONF_URL_BASE ?>/_cdn/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <link href="<?= CONF_URL_BASE ?>/_cdn/css/website.css" rel="stylesheet" />
+    
     <?php 
     $tag = new \Source\Controller\Tags();
   echo  $tag->tags();
@@ -34,7 +33,7 @@ require __DIR__ . "/../../library/autoload.php";
           <a class="nav-link active" aria-current="page" href="<?= CONF_URL_BASE ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="<?= CONF_URL_BASE ?>/blog">Blog</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,9 +46,10 @@ require __DIR__ . "/../../library/autoload.php";
            
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <li class="nav-item">
+          <a class="nav-link" href="<?= CONF_URL_BASE ?>/contato">Contato</a>
         </li>
+        
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -89,7 +89,8 @@ require __DIR__ . "/../../library/autoload.php";
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <script src="<?= CONF_URL_BASE ?>/_cdn/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

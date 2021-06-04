@@ -1,4 +1,9 @@
-body{background: #ccc; font-family: 'Ubuntu', sans-serif;}
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
 
 .boxdisplay{
     
@@ -9,7 +14,7 @@ body{background: #ccc; font-family: 'Ubuntu', sans-serif;}
 }
 
 .content_footer{
-    flex-basis: calc(33.3% - 30px);
+    flex-basis: calc(33.3% - 20px);
     border: 2px solid #fff;
     border-radius: 15px;
     padding: 10px;
